@@ -1,0 +1,74 @@
+
+body{
+   background-color: var(--bg-color2) !important;
+   font-family: 'Montserrat', sans-serif !important;
+   h2, h5, h3{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+}
+
+.nav-link{
+   margin: 5px;
+   color: $bg-color1!important;
+   border-bottom: $bg-color1 1px solid;
+   font-size: 1.1rem!important;
+   &:hover{
+      border-bottom: none;
+   }
+}
+
+
+
+section{
+   padding: 150px 0;
+}
+
+.about-me__parth, .for-kids, .how-we-work, .schedule, .blog {
+   background-color: $light-dark;
+}
+
+.materials{
+   background-color: $light-dark;
+}
+
+.for-kids{
+   i{
+      font-size: 3.6rem;
+      color: $orange;
+   }
+   h5{
+      text-decoration:underline;
+   }
+   .for-kids__row{
+      justify-content: flex-end;
+   }
+}
+
+.call-me{
+   padding: 70px 0;
+   .call-me__btn{
+      background-color: $orange!important;
+      color: $light-dark!important;
+      border-radius: 30px!important;
+      --bs-btn-padding-y: 0.8rem!important;
+   }
+}
+
+
+footer{
+   padding: 40px;
+   h5{
+      color: #848484;
+   }
+   img{
+      max-width: 200px!important;
+   }
+   a{
+      color: $text;
+      text-decoration: none;
+      &:hover{
+         text-decoration: underline;
+         color: $text;
+      }
+   }
+}
